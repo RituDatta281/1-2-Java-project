@@ -1,0 +1,39 @@
+.root {
+   -fx-background-image: url("booking3.jpg");
+}
+.label:hover{
+    -fx-background-color: #66ccff;
+        -fx-border-color: #000000
+}
+#four {
+    
+    -fx-background-image: url("lightblue.jpg");
+}
+#two {
+    
+    -fx-background-image: url("lightblue.jpg");
+}
+.button{
+    
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    
+    
+    -fx-text-fill: #000000
+}
+.button:hover{
+    -fx-background-color: #66ccff;
+    -fx-border-color: #000000;
+        -fx-text-fill: white;
+    
+}
+
+.list-row-cell:filled{
+    -fx-background-color: moccasin;
+    
+} 
+.list-row-cell:hover{
+    -fx-background-color: blanchedalmond;
+}

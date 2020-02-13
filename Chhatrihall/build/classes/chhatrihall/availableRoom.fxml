@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="597.0" prefWidth="683.0" stylesheets="@roomNumber.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chhatrihall.AvailableRoomController">
+   <children>
+      <ListView fx:id="two" layoutX="43.0" layoutY="83.0" onMouseClicked="#seat2select" prefHeight="503.0" prefWidth="200.0" stylesheets="@roomNumber.css" />
+      <ListView fx:id="four" layoutX="441.0" layoutY="83.0" onMouseClicked="#seat4select" prefHeight="503.0" prefWidth="200.0" stylesheets="@roomNumber.css" />
+      <Label fx:id="ts" layoutX="259.0" layoutY="238.0" prefHeight="51.0" prefWidth="171.0" text="  &lt;--- 2 Bed  ">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font></Label>
+      <Label fx:id="fs" layoutX="256.0" layoutY="299.0" prefHeight="51.0" prefWidth="171.0" text="  4 Bed ---&gt;">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font></Label>
+      <Button fx:id="submitButton" alignment="CENTER" layoutX="363.0" layoutY="14.0" mnemonicParsing="false" onAction="#submit" prefHeight="51.0" prefWidth="95.0" style="-fx-background-radius: 10;" text="View">
+         <font>
+            <Font name="Forte" size="22.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="14.0" prefHeight="51.0" prefWidth="310.0" text="List of Available Rooms">
+         <font>
+            <Font name="Forte" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="closebutton" alignment="CENTER" layoutX="475.0" layoutY="14.0" mnemonicParsing="false" onAction="#close" prefHeight="51.0" prefWidth="106.0" style="-fx-background-radius: 10;" text="Log Out">
+         <font>
+            <Font name="Forte" size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="17.0" layoutY="27.0" mnemonicParsing="false" onAction="#back" stylesheets="@roomNumber.css" text="Button" />
+   </children>
+</AnchorPane>

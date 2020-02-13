@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="580.0" prefWidth="799.0" stylesheets="@roombooking.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chhatrihall.RoomController">
+   <children>
+<!--      <ImageView fitHeight="591.0" fitWidth="809.0" layoutX="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@booking3.jpg" />
+         </image>
+      </ImageView>-->
+      <Label alignment="CENTER" layoutX="312.0" layoutY="36.0" prefHeight="65.0" prefWidth="196.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Student Profile">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="submitbutton2" layoutX="544.0" layoutY="462.0" mnemonicParsing="false" onMouseClicked="#submit2" prefHeight="57.0" prefWidth="69.0" style="-fx-border-radius: 10;" stylesheets="@roombooking.css" text="View" />
+      <Label alignment="CENTER" layoutX="231.0" layoutY="126.0" prefHeight="37.0" prefWidth="92.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" text="Student ID">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="231.0" layoutY="175.0" prefHeight="37.0" prefWidth="92.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" text=" Name">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="230.0" layoutY="232.0" prefHeight="37.0" prefWidth="92.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" text="Level">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="231.0" layoutY="281.0" prefHeight="37.0" prefWidth="92.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" text="Term">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="id" editable="false" layoutX="384.0" layoutY="132.0" />
+      <TextField fx:id="name" editable="false" layoutX="384.0" layoutY="181.0" />
+      <TextField fx:id="level" editable="false" layoutX="384.0" layoutY="238.0" />
+      <TextField fx:id="term" editable="false" layoutX="384.0" layoutY="287.0" />
+      <Label alignment="CENTER" layoutX="193.0" layoutY="458.0" prefHeight="71.0" prefWidth="315.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" text="Available rooms for students">
+         <font>
+            <Font name="Forte" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="213.0" layoutY="392.0" prefHeight="37.0" prefWidth="128.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" text="Submission status">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font></Label>
+      <TextField fx:id="stat" editable="false" layoutX="384.0" layoutY="398.0" />
+      <Label alignment="CENTER" layoutX="219.0" layoutY="330.0" prefHeight="37.0" prefWidth="108.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" text="Current Room">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font></Label>
+      <TextField fx:id="croom" editable="false" layoutX="384.0" layoutY="336.0" />
+      <Label fx:id="nocolor" layoutX="639.0" layoutY="6.0" prefHeight="17.0" prefWidth="149.0" text="You are logged in" />
+   </children>
+</AnchorPane>

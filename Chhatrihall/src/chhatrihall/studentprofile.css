@@ -1,0 +1,22 @@
+.label:hover{
+    -fx-background-color: #BDBDBD;
+        -fx-border-color: #000000
+}
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    
+    
+    -fx-text-fill: #000000
+}
+.button:hover
+{
+    -fx-background-color:#552e55;
+    -fx-text-fill: white;
+}
+.pane {
+    
+    -fx-border-color: #ff99cc;
+}

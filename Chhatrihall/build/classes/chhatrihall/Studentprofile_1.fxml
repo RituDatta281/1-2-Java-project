@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="580.0" prefWidth="799.0" stylesheets="@studentprofile.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chhatrihall.HomeController">
+   <children>
+      <ImageView fitHeight="580.0" fitWidth="799.0" pickOnBounds="true">
+         <image>
+            <Image url="@studentprofile.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="345.0" layoutY="16.0" prefHeight="66.0" prefWidth="206.0" style="-fx-border-radius: 5; -fx-background-radius: 5;" text="Registration" textFill="#423636">
+         <font>
+            <Font name="Bookman Old Style Bold" size="24.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="270.0" layoutY="103.0" prefHeight="53.0" prefWidth="104.0" style="-fx-border-radius: 10; -fx-background-radius: 10;" text="Student ID :">
+         <font>
+            <Font name="Book Antiqua Bold" size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="270.0" layoutY="153.0" prefHeight="53.0" prefWidth="104.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Student Name :">
+         <font>
+            <Font name="Book Antiqua Bold" size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="270.0" layoutY="203.0" prefHeight="53.0" prefWidth="96.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Level :">
+         <font>
+            <Font name="Book Antiqua Bold" size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="270.0" layoutY="253.0" prefHeight="53.0" prefWidth="89.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Term :">
+         <font>
+            <Font name="Book Antiqua Bold" size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="270.0" layoutY="303.0" prefHeight="53.0" prefWidth="96.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="CGPA :">
+         <font>
+            <Font name="Book Antiqua Bold" size="14.0" />
+         </font></Label>
+      <Button fx:id="submitButton" layoutX="505.0" layoutY="484.0" mnemonicParsing="false" onAction="#submit" prefHeight="53.0" prefWidth="89.0" style="-fx-background-radius: 10;" stylesheets="@studentprofile.css" text="Submit">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font></Button>
+      <TextField fx:id="studentID" layoutX="477.0" layoutY="117.0" promptText="Enter your id" />
+      <TextField fx:id="studentName" layoutX="475.0" layoutY="167.0" promptText="Enter your name" />
+      <TextField fx:id="level" layoutX="475.0" layoutY="217.0" promptText="Enter your level" />
+      <TextField fx:id="term" layoutX="477.0" layoutY="267.0" promptText="Enter your term" />
+      <TextField fx:id="cgpa" layoutX="477.0" layoutY="317.0" promptText="Enter your current CGPA" />
+      <Label alignment="CENTER" layoutX="270.0" layoutY="353.0" prefHeight="53.0" prefWidth="89.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Password :">
+         <font>
+            <Font name="Book Antiqua Bold" size="14.0" />
+         </font></Label>
+      <PasswordField fx:id="pass" layoutX="477.0" layoutY="367.0" promptText="Enter your password" />
+      <Label alignment="CENTER" layoutX="270.0" layoutY="403.0" prefHeight="53.0" prefWidth="104.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Current Room:">
+         <font>
+            <Font name="Book Antiqua Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="room" layoutX="477.0" layoutY="417.0" promptText="Enter your room no" />
+   </children>
+</AnchorPane>

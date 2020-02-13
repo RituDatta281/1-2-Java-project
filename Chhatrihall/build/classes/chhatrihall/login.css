@@ -1,0 +1,39 @@
+.root {
+    -fx-background-position: center;
+-fx-background-color: #BDBDBD;
+-fx-background-image: url("use1.jpg");
+-fx-background-repeat: stretch;
+-fx-background-insets: 30;
+}
+.label:hover{
+    -fx-background-color: #478fe7;
+    -fx-border-color: #0033cc
+    
+}
+
+#sendButton {
+    
+    -fx-background-image: url("loginimage.jpg");
+    -fx-background-position: center center;
+    -fx-background-size:  69 56;
+    -fx-background-repeat: no-repeat;
+    -fx-background-repeat: stretch;
+    
+}
+.button:hover {
+    -fx-background-color: #000000;
+        
+}
+#reg {
+    -fx-background-image: url("register.jpg");
+    -fx-background-position: center center;
+    -fx-background-size:  67 52;
+    -fx-background-repeat: no-repeat;
+    -fx-background-repeat: stretch;
+}
+.gridpane:hover {
+    -fx-background-color: #000000
+}    
+.group:hover{
+    -fx-background-color: #000000
+}

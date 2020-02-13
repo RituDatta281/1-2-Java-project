@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chhartrihalladmin.RequestTableController">
+   <center>
+      <SplitPane dividerPositions="0.2391304347826087" prefHeight="160.0" prefWidth="200.0" stylesheets="@RequestTable.css" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="499.0" prefWidth="156.0" stylesheets="@RequestTable.css">
+               <children>
+                  <ImageView fitHeight="561.0" fitWidth="156.0" layoutX="-12.0" layoutY="-4.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@grey.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="18.0" layoutY="201.0" mnemonicParsing="false" onAction="#close" prefHeight="47.0" prefWidth="99.0" style="-fx-background-radius: 10;" text="Sign Out" textFill="#574d4d">
+                     <font>
+                        <Font name="Britannic Bold" size="18.0" />
+                     </font></Button>
+                  <ImageView fitHeight="56.0" fitWidth="50.0" layoutX="45.0" layoutY="136.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@exit.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="377.0" prefWidth="442.0">
+               <children>
+                  <TableView fx:id="table1" layoutX="33.0" maxWidth="1.7976931348623157E308" onMouseClicked="#showonclick" prefHeight="398.0" prefWidth="417.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="c1" prefWidth="75.0" text="room no" />
+                      <TableColumn fx:id="c2" prefWidth="75.0" text="ID" />
+                        <TableColumn fx:id="c3" prefWidth="75.0" text="CGPA" />
+                        <TableColumn fx:id="c4" prefWidth="75.0" text="EX ROOM" />
+                        <TableColumn fx:id="c5" prefWidth="75.0" text="Status" />
+                        <TableColumn fx:id="c6" prefWidth="75.0" text="Vacancy" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+</BorderPane>

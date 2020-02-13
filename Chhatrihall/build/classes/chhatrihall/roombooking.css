@@ -1,0 +1,30 @@
+.root {
+   -fx-background-image: url("booking2.png");
+}
+.label:hover{
+    -fx-background-color:#ff99cc;
+    -fx-border-color: #000000;
+}
+textfield:hover{
+    -fx-background-color:#ff99cc
+    
+}
+
+#submitbutton2 {
+    
+    -fx-background-image: url("view12.png");
+    -fx-border-color: #000000;
+    -fx-background-position: center center;
+    -fx-background-size:  65 52;
+    -fx-background-repeat: no-repeat;
+    -fx-background-repeat: stretch;
+    
+}
+.button:hover {
+    -fx-background-color: #000000
+}
+#nocolor:hover{
+    
+    -fx-background-color:activecaption;
+    -fx-border-color: activeborder
+}
